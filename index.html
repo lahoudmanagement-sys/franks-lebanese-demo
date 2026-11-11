@@ -17,11 +17,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500..800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/site.css?v=3">
 <link rel="preload" as="image" href="assets/img/hero-1800.webp" imagesrcset="assets/img/hero-1000.webp 1000w, assets/img/hero-1800.webp 1800w" imagesizes="100vw">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Frank’s Lebanese Restaurant","url":"https://frankslebanesefood.com.au","image":"https://frankslebanesefood.com.au/assets/img/share.jpg","telephone":"+61297243000","servesCuisine":["Lebanese","Middle Eastern"],"priceRange":"$$","acceptsReservations":true,"hasMenu":"https://frankslebanesefood.com.au/menu.html","address":{"@type":"PostalAddress","streetAddress":"16 Smart Street","addressLocality":"Fairfield","addressRegion":"NSW","postalCode":"2165","addressCountry":"AU"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"11:00","closes":"21:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"11:00","closes":"21:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"11:00","closes":"21:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"11:00","closes":"21:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"11:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"11:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"11:00","closes":"21:30"}],"sameAs":["https://www.facebook.com/Frankslebaneserestaurant/","https://www.instagram.com/frankslebaneserestaurant/"]}</script>
 </head>
-<body>
+<body class="home">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-row">
@@ -50,12 +50,16 @@
         <a class="btn btn-primary" href="#book">Book a table</a>
         <a class="btn btn-light" href="menu.html">See the menu</a>
       </div>
-      <ul class="hero-facts">
+    </div>
+    <div class="hero-ledge">
+      <ul class="wrap">
         <li><span class="status" data-open-status>Open 7 days from 11 am</span></li>
         <li><a href="https://www.google.com/maps/search/?api=1&query=Frank%27s+Lebanese+Restaurant+16+Smart+Street+Fairfield+NSW" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.5 2.9 6.2 6.6.8-4.9 4.6 1.3 6.6L12 17.4l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>4.3 on Google from 660+ reviews</a></li>
+        <li><a href="https://www.google.com/maps/dir/?api=1&destination=Frank%27s+Lebanese+Restaurant%2C+16+Smart+Street%2C+Fairfield+NSW+2165" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7zm0 4.5A2.5 2.5 0 1 0 12 11.5 2.5 2.5 0 0 0 12 6.5z"/></svg>16 Smart Street, Fairfield</a></li>
       </ul>
     </div>
   </section>
+  <div class="tile-band" aria-hidden="true"></div>
 
   <section class="ways" aria-label="Ways to eat with us">
     <div class="wrap ways-grid">
@@ -90,34 +94,34 @@
       </div>
       <ul class="plates">
         <li class="plate">
-          <img src="assets/img/photo-17-sm.webp" alt="Whole charcoal chicken" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Whole charcoal chicken</h3><p>Off the coals, with garlic cream.</p></div>
-          <span class="plate-price">$25</span>
+          <img src="assets/img/photo-17.webp" srcset="assets/img/photo-17-sm.webp 480w, assets/img/photo-17.webp 800w" sizes="(min-width: 1020px) 62vw, 100vw" alt="Whole charcoal chicken" loading="lazy">
+          <div class="plate-line"><h3>Whole charcoal chicken</h3><span class="dots"></span><span class="plate-price">$25</span></div>
+          <p>Off the coals, with garlic cream.</p>
         </li>
         <li class="plate">
-          <img src="assets/img/photo-5-sm.webp" alt="Mixed plate" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Mixed plate</h3><p>Lamb, chicken and kafta skewers with your choice of side.</p></div>
-          <span class="plate-price">$27</span>
+          <img src="assets/img/photo-5.webp" srcset="assets/img/photo-5-sm.webp 480w, assets/img/photo-5.webp 800w" sizes="(min-width: 1020px) 30vw, (min-width: 520px) 50vw, 100vw" alt="Mixed plate" loading="lazy">
+          <div class="plate-line"><h3>Mixed plate</h3><span class="dots"></span><span class="plate-price">$27</span></div>
+          <p>Lamb, chicken and kafta skewers with your choice of side.</p>
         </li>
         <li class="plate">
-          <img src="assets/img/photo-10-sm.webp" alt="Stuffed kibbeh" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Stuffed kibbeh</h3><p>Lamb and burghul shells filled with spiced mince.</p></div>
-          <span class="plate-price">$11</span>
+          <img src="assets/img/photo-10.webp" srcset="assets/img/photo-10-sm.webp 480w, assets/img/photo-10.webp 800w" sizes="(min-width: 1020px) 30vw, (min-width: 520px) 50vw, 100vw" alt="Stuffed kibbeh" loading="lazy">
+          <div class="plate-line"><h3>Stuffed kibbeh</h3><span class="dots"></span><span class="plate-price">$11</span></div>
+          <p>Lamb and burghul shells filled with spiced mince.</p>
         </li>
         <li class="plate">
-          <img src="assets/img/photo-7-sm.webp" alt="Shish taouk" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Shish taouk</h3><p>Three skewers of marinated chicken.</p></div>
-          <span class="plate-price">$27</span>
+          <img src="assets/img/photo-7.webp" srcset="assets/img/photo-7-sm.webp 480w, assets/img/photo-7.webp 800w" sizes="(min-width: 1020px) 30vw, (min-width: 520px) 50vw, 100vw" alt="Shish taouk" loading="lazy">
+          <div class="plate-line"><h3>Shish taouk</h3><span class="dots"></span><span class="plate-price">$27</span></div>
+          <p>Three skewers of marinated chicken.</p>
         </li>
         <li class="plate">
-          <img src="assets/img/photo-20-sm.webp" alt="Lahem baajin" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Lahem baajin</h3><p>Lebanese pizza with minced meat, tomato and onion.</p></div>
-          <span class="plate-price">$7.50</span>
+          <img src="assets/img/photo-20.webp" srcset="assets/img/photo-20-sm.webp 480w, assets/img/photo-20.webp 800w" sizes="(min-width: 1020px) 30vw, (min-width: 520px) 50vw, 100vw" alt="Lahem baajin" loading="lazy">
+          <div class="plate-line"><h3>Lahem baajin</h3><span class="dots"></span><span class="plate-price">$7.50</span></div>
+          <p>Lebanese pizza with minced meat, tomato and onion.</p>
         </li>
         <li class="plate">
-          <img src="assets/img/photo-24-sm.webp" alt="Knafe bil jibneh" loading="lazy" width="480" height="600">
-          <div class="plate-text"><h3>Knafe bil jibneh</h3><p>Warm semolina and cheese with orange blossom syrup.</p></div>
-          <span class="plate-price">$12</span>
+          <img src="assets/img/photo-24.webp" srcset="assets/img/photo-24-sm.webp 480w, assets/img/photo-24.webp 800w" sizes="(min-width: 1020px) 30vw, (min-width: 520px) 50vw, 100vw" alt="Knafe bil jibneh" loading="lazy">
+          <div class="plate-line"><h3>Knafe bil jibneh</h3><span class="dots"></span><span class="plate-price">$12</span></div>
+          <p>Warm semolina and cheese with orange blossom syrup.</p>
         </li>
       </ul>
     </div>
@@ -152,15 +156,15 @@
         <img src="assets/img/photo-33-sm.webp" alt="Bread baking in the oven" loading="lazy" width="320" height="480">
       </figure>
       <div class="story-copy">
-        <h2>A Fairfield table since 1992</h2>
-        <p>Frank’s opened on Smart Street in 1992 and has been cooking the same way since: chicken over charcoal, bread from the oven, and mezza made fresh each day.</p>
+        <h2><span>Chicken over charcoal.</span> <span>Bread from the oven.</span> <span>Mezza made fresh each day.</span></h2>
+        <p>Frank’s opened on Smart Street in 1992 and has cooked the same way ever since.</p>
         <p>People come back for generous plates at fair prices, staff who remember them, and a dining room that suits a quick lunch as well as a long family dinner.</p>
         <a class="text-link" href="#find-us">Hours and how to find us</a>
       </div>
     </div>
   </section>
 
-  <section class="section section-tint" id="gallery">
+  <section class="section section-dark" id="gallery">
     <div class="wrap">
       <div class="section-head"><h2>From the kitchen</h2></div>
       <div class="shots">
@@ -294,6 +298,7 @@
   <img alt="">
   <button type="button" class="lightbox-nav lightbox-next" aria-label="Next photo">›</button>
 </dialog>
+<div class="tile-band" aria-hidden="true"></div>
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
@@ -325,6 +330,6 @@
   <a class="action-book" href="index.html#book"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2a1 1 0 0 1 1 1v1h8V3a1 1 0 1 1 2 0v1h1a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1V3a1 1 0 0 1 1-1zm12 8H5v9h14zM8 12.5h3v3H8z"/></svg><span>Book</span></a>
 </nav>
 <script id="site-data" type="application/json">{"hours":[{"day":"Monday","open":"11:00","close":"21:30"},{"day":"Tuesday","open":"11:00","close":"21:30"},{"day":"Wednesday","open":"11:00","close":"21:30"},{"day":"Thursday","open":"11:00","close":"21:30"},{"day":"Friday","open":"11:00","close":"22:00"},{"day":"Saturday","open":"11:00","close":"22:00"},{"day":"Sunday","open":"11:00","close":"21:30"}],"booking":{"slotMinutes":30,"lastBookingMinutesBeforeClose":60,"maxGuestsOnline":30},"phone":"(02) 9724 3000","demo":true}</script>
-<script src="assets/js/site.js" defer></script>
+<script src="assets/js/site.js?v=3" defer></script>
 </body>
 </html>

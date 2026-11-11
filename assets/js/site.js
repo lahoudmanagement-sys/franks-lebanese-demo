@@ -44,6 +44,11 @@
   $(`.hours [data-day="${now.dayIndex}"]`)?.classList.add('is-today');
   $$('[data-year]').forEach((el) => { el.textContent = now.date.slice(0, 4); });
 
+  // Header turns solid once the page scrolls
+  const onScroll = () => document.documentElement.classList.toggle('is-scrolled', window.scrollY > 24);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
   // Mobile navigation
   const toggle = $('.nav-toggle'), nav = $('#main-nav');
   toggle?.addEventListener('click', () => {
