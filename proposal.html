@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>A new website for Frank’s Lebanese Restaurant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600..700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<style>
+  :root { --ink:#1d1b18; --soft:#55504a; --tile:#0f2937; --brass:#b38f3f; --turnip:#c4215b; --tint:#edf2f3; --line:#d5dcde; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 1.02rem/1.6 "Hanken Grotesk", system-ui, sans-serif; color: var(--ink); background: #fff; }
+  .page { width: min(820px, 100% - 40px); margin: 0 auto; padding: 56px 0 80px; }
+  header { background: var(--tile); color: #fff; padding: 56px 0 48px; }
+  header .page { padding: 0; }
+  h1, h2 { font-family: "Bodoni Moda", Georgia, serif; line-height: 1.08; margin: 0; text-wrap: balance; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); max-width: 16ch; }
+  header p { margin: 18px 0 0; max-width: 38rem; color: #dfe6e8; }
+  h2 { font-size: 1.9rem; margin: 56px 0 16px; }
+  h3 { font-size: 1.08rem; margin: 0 0 4px; }
+  p { margin: 0 0 14px; }
+  .lede { font-size: 1.15rem; }
+  .findings { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+  .findings li { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 32px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+  .findings p { margin: 0; color: var(--soft); }
+  .findings .fix { color: var(--ink); }
+  .findings .fix::before { content: "New site: "; font-weight: 700; color: var(--turnip); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 40px; padding: 0; margin: 0; list-style: none; }
+  .cols li { padding-left: 18px; position: relative; }
+  .cols li::before { content: ""; position: absolute; left: 0; top: .62em; width: 7px; height: 7px; border-radius: 50%; background: var(--brass); }
+  .price { background: var(--tint); border-radius: 10px; padding: 28px 32px; display: grid; grid-template-columns: auto 1fr; gap: 8px 36px; align-items: center; }
+  .price strong { font: 700 3.2rem/1 "Bodoni Moda", Georgia, serif; }
+  .price p { margin: 0; }
+  .price small { grid-column: 1 / -1; color: var(--soft); font-size: .95rem; }
+  ol { padding-left: 22px; margin: 0; }
+  ol li { margin-bottom: 8px; }
+  .note { color: var(--soft); font-size: .93rem; margin-top: 40px; border-top: 1px solid var(--line); padding-top: 16px; }
+  .contact { margin-top: 40px; padding: 24px 28px; border: 2px solid var(--ink); border-radius: 10px; }
+  .contact p { margin: 0; }
+  mark { background: #fff2b3; padding: 0 3px; }
+  @media (max-width: 640px) { .findings li, .cols, .price { grid-template-columns: 1fr; } }
+  @media print { header { -webkit-print-color-adjust: exact; print-color-adjust: exact; } h2 { break-after: avoid; } .findings li, .price, .contact { break-inside: avoid; } .page { padding-top: 24px; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="page">
+    <h1>A new website for Frank’s Lebanese Restaurant</h1>
+    <p>Your food has earned 4.3 stars from 662 Google reviews. Your website was built in 2016 and is turning some of those diners away before they reach the door. We have already built the replacement, and you can try it today.</p>
+  </div>
+</header>
+
+<div class="page">
+  <p class="lede">We went through frankslebanesefood.com.au page by page, on a phone and on a computer, in November 2026. Below is what a customer runs into now, and what the new site does instead. The new site is finished and working: <a href="https://lahoudmanagement-sys.github.io/franks-lebanese-demo/">https://lahoudmanagement-sys.github.io/franks-lebanese-demo/</a></p>
+
+  <h2>What customers run into today</h2>
+  <ul class="findings">
+    <li>
+      <div><h3>The Reservation button leads to “Coming Soon…”</h3><p>That page has said “Coming Soon” since June 2016. A booking form does exist, but it sits at the bottom of every page where few people will find it.</p></div>
+      <p class="fix">A “Book a table” button is always on screen. The form offers only times you are open, asks for a phone number so you can confirm, and takes under a minute.</p>
+    </li>
+    <li>
+      <div><h3>The opening hours are wrong, and missing on phones</h3><p>The site says “Open 9am – 10pm”. Google lists 11 am to 9:30 pm, and 10 pm on Friday and Saturday. On a phone, the hours do not appear at all.</p></div>
+      <p class="fix">All seven days are listed, today is highlighted, and the top of the page says “Open now until 9:30 pm” or “Opens tomorrow at 11 am”.</p>
+    </li>
+    <li>
+      <div><h3>The menu is about 25 screens of scrolling on a phone</h3><p>There is no way to jump to mains or dessert, and no drink has a price.</p></div>
+      <p class="fix">Section buttons stay at the top (Cold mezza, Hot mezza, Chicken, Mains and so on), with a search box and a “Vegetarian only” switch. Prices sit beside each dish.</p>
+    </li>
+    <li>
+      <div><h3>Delivery, takeaway and catering are not mentioned</h3><p>You have an Uber Eats store, and your Facebook page offers takeaway and catering. The website links to none of them.</p></div>
+      <p class="fix">Four clear choices sit under the main photo: dine in, takeaway, delivery through Uber Eats, and catering.</p>
+    </li>
+    <li>
+      <div><h3>The $55 banquet is easy to miss</h3><p>Your best offer for groups is a small block of text halfway down the home page.</p></div>
+      <p class="fix">The banquet has its own section with a photo of the full mezza and a button that starts a group booking.</p>
+    </li>
+    <li>
+      <div><h3>Three different opening years</h3><p>The home page says “Since 1998”, the About page says 1992, and Facebook says 1993.</p></div>
+      <p class="fix">One year, used everywhere. We have used 1992 until you confirm it.</p>
+    </li>
+    <li>
+      <div><h3>Google gets very little to work with</h3><p>The site has no page description, no restaurant details in the format Google reads, and 79 of the 80 images on the home page have no description.</p></div>
+      <p class="fix">Your address, phone, hours, cuisine and menu are supplied to Google in its own format, and every photo is described.</p>
+    </li>
+    <li>
+      <div><h3>The site is ageing underneath</h3><p>It runs on a 2016 WordPress theme with code libraries from 2015, and the administrator’s login name is visible to anyone who looks for it.</p></div>
+      <p class="fix">No WordPress, no logins and no plugins to update. There is nothing on the new site to break into.</p>
+    </li>
+  </ul>
+
+  <h2>What is in the new site</h2>
+  <ul class="cols">
+    <li>Home page, full menu page, booking confirmation page</li>
+    <li>Your own photos, re-cut so pages load quickly on mobile data</li>
+    <li>Booking requests sent straight to your email</li>
+    <li>Call, Menu, Directions and Book buttons fixed to the bottom of every phone screen</li>
+    <li>Live “open now” status and seven-day hours</li>
+    <li>Full menu with prices, search and vegetarian filter</li>
+    <li>Banquet and group booking section</li>
+    <li>Uber Eats, Facebook, Instagram and Google review links</li>
+    <li>Photo gallery and map with one-tap directions</li>
+    <li>Old links from Google keep working after the switch</li>
+  </ul>
+
+  <h2>The price</h2>
+  <div class="price">
+    <strong>$1,000</strong>
+    <p>One-off fee for setup and installation. This covers the finished site, your corrections to the menu, hours and wording, connecting it to frankslebanesefood.com.au, booking emails set up and tested, and updating the links on your Google listing.</p>
+    <small>Your domain name renewal continues as it does now. Your email addresses are not touched.</small>
+  </div>
+
+  <h2>What we need from you</h2>
+  <ol>
+    <li>Your correct opening hours for each day, including public holidays.</li>
+    <li>The year Frank’s opened.</li>
+    <li>A look over the menu and prices. We copied them from your current site and they may be out of date.</li>
+    <li>Drink and wine prices, if you would like them shown.</li>
+    <li>Confirmation of the banquet price: $55 per adult and $50 per child, minimum 5 people.</li>
+    <li>A check of which dishes we have marked vegetarian.</li>
+    <li>The email address and phone number where booking requests should go.</li>
+    <li>The login for wherever your domain name is registered, or ten minutes with whoever manages it.</li>
+  </ol>
+
+  <h2>How it goes</h2>
+  <ol>
+    <li>You look at the demo on your own phone.</li>
+    <li>You send us the corrections above.</li>
+    <li>We update the site and you approve it.</li>
+    <li>We switch it on. Your current site is backed up first and the change takes a few minutes.</li>
+  </ol>
+
+  <div class="contact">
+    <p><strong>George Lahoud</strong></p>
+    <p><a href="tel:+61450075707">0450 075 707</a> &nbsp; <a href="mailto:lahoudmanagement@gmail.com">lahoudmanagement@gmail.com</a></p>
+  </div>
+
+  <p class="note">Review figures are from Google (4.3 from 662 reviews, October 2026 snapshot). Opening hours quoted are those shown on Google in November 2026. A better website removes reasons for people to give up, but we cannot promise a specific number of extra bookings.</p>
+</div>
+</body>
+</html>
